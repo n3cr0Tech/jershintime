@@ -12,7 +12,7 @@ module.exports = {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
     siteTitle: `Jersh`,
     siteTitleAlt: `Jersh Projects`,
-    siteHeadline: `Jershin Time Projects`,
+    siteHeadline: `There's always time to make some cool sh#t`,
     siteUrl: `https://jershintime.com`,
     siteDescription: `Projects by Jersh`,
     siteImage: `/banner.jpg`,
@@ -25,8 +25,8 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
           { name: `Art`, slug: `/art` },
+          { name: `Stickers`, slug: `/stickers` },
           { name: `About`, slug: `/about` },
         ],
       },
