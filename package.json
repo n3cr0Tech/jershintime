@@ -8,7 +8,7 @@
   "starter-name": "gatsby-starter-portfolio-jodie",
   "scripts": {
     "deploy": "gatsby build && npm run add-domain-cname && gh-pages -d public",
-    "add-domain-cname": "echo \"jershintime.com\" > ./static/CNAME",
+    "add-domain-cname": "echo \"jershintime.com\" > ./public/static/CNAME",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
